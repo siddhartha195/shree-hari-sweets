@@ -1,0 +1,29 @@
+/* @import "tailwindcss";
+        /* Custom CSS for pure CSS hamburger menu */
+        /* #nav-toggle:checked ~ #nav-menu {
+            display: flex;
+        } */
+        /* Smooth scrolling for anchor links */
+        /* html {
+            scroll-behavior: smooth;
+        } */
+        /* Ensure animations only run once on load for hero */
+        /* .animate-fade-in-up { */
+            /* opacity: 0; Hidden initially */
+        /* } */
+        /* body:not(.js-loaded) .animate-fade-in-up { */
+            /* animation: none; Disable animation if JS is not loading it or for initial state */
+            /* opacity: 1; Make visible if animation is not meant to be deferred by JS */
+        /* } */ 
+
+
+        @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+    
